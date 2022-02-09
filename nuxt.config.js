@@ -9,7 +9,6 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    base: 'router.base',
     titleTemplate: '%s - TeslaAppWebClone',
     title: 'TeslaAppWebClone',
     meta: [
