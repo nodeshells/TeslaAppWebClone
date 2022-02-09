@@ -81,5 +81,14 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     transpile: ['three'],
+  },
+
+  // GithubActionsConfig
+  router: {
+    base: '/TeslaAppWebClone/'
+  },
+
+  generate: {
+    dir: 'docs'
   }
 }
